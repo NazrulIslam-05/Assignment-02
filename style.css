@@ -1,0 +1,42 @@
+
+
+
+
+.header{
+    width: 1366px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 10px 240px;
+
+}
+.l-header{
+    display: flex;
+    gap: 20px;
+}
+.nav{
+    margin-right: 240px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    
+
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    
+}
+.btn-head{
+     border: 1px solid #fff;
+    border-radius: 8px;
+    
+
+}

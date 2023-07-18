@@ -1,0 +1,9 @@
+footer section এর আগের সেকশনে এ হোবার করলে বর্ডার রেডিয়াস হবে আর টেক্স এর কালার চেঞ্জ হয়ে যাবে
+
+২। career section optional
+3. career er  উপরের  section too optinal
+
+bonous:
+1.fav icon: heading er icon grammer
+2.online game: hover  করলে play icon আসবে watch now লিখা থাকবে।
+৩।@media query mobile and tablet
