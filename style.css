@@ -40,3 +40,39 @@
     
 
 }
+
+    /* banner style */
+
+ .main{
+    width: 1366px;
+    margin:10px 240px;
+    /* background-color: lightgray; */
+    background-color:"4283586137";
+    
+    
+ }  
+ 
+ .banner{
+    width: 1366px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin:10px 240px;
+ }
+ .banner-container{
+    width: 443px;
+    height: 800px;
+    font-size: 2rem;
+    margin:0 auto;
+    
+
+ }
+
+ .banner img{
+    margin:0 auto;
+    
+ }
+
+
+      /* funny video */
+      
