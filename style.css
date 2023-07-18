@@ -10,6 +10,7 @@
     justify-content: space-between;
     justify-items: center;
     margin: 10px 240px;
+    border: 1px solid rgb(241, 241, 241);
 
 }
 .l-header{
@@ -44,16 +45,16 @@
     /* banner style */
 
  .main{
-    width: 1366px;
+    width: 1080px;
     margin:10px 240px;
     /* background-color: lightgray; */
-    background-color:"4283586137";
+    background-color:rgb(241, 241, 241);
     
     
  }  
  
  .banner{
-    width: 1366px;
+    width: 1080px;
     height: 800px;
     display: flex;
     justify-content: space-around;
@@ -71,8 +72,103 @@
  .banner img{
     margin:0 auto;
     
+    
  }
 
 
       /* funny video */
-      
+
+
+.funny-video{
+    width: 1080px;
+    margin: 10px auto;
+}
+.funny-video  h2, .title-description{
+    text-align: center;
+    justify-content: center;
+} 
+.funny-video-images{
+    display: flex;
+    gap: 10px;
+}
+ 
+        /* anniversary */
+
+.anniversary{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    
+} 
+
+.l-anniversary{
+   
+   max-width: 400px ;
+   max-height: 300px;
+}
+.r-anniversary{
+    max-width: 600px ;
+    max-height: 300px;
+ }
+
+ .r-anniversary-image-2{
+    position: relative;
+    bottom: 100px;
+ }
+
+       /* game-type */
+
+     
+.type{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+}  
+.type:hover{
+    border: 1px solid palevioletred;
+    border-radius: 15px;
+} 
+
+.game-type-1{
+    grid-area: game-type-1;
+}
+.game-type-2{
+    grid-area: game-type-2;
+}
+
+.game-type-3{
+    grid-area: game-type-3;
+}
+.game-type-4{
+    grid-area: game-type-4;
+}
+.game-type-5{
+    grid-area: game-type-5;
+}
+.game-type-6{
+    grid-area: game-type-6;
+}
+.game-type-7{
+    grid-area: game-type-7;
+}
+.game-type-8{
+    grid-area: game-type-8;
+}
+.game-type-9{
+    grid-area: game-type-9;
+}
+
+.game-type{
+    
+   
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+        "  game-type-1  game-type-2  game-type-3  game-type-4  game-type-5 "
+
+        " game-type-6  game-type-7   game-type-8  game-type-9   game-type-9 "
+    
+    
+    ;
+ }  
