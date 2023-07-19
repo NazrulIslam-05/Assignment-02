@@ -380,8 +380,8 @@ body{
         
         }
 
-    /* .banner {
-        flex-direction: column;  }*/
+        .banner {
+        flex-direction: column;  }
         .banner-container {
             text-align: center;
           }
