@@ -7,3 +7,62 @@ bonous:
 1.fav icon: heading er icon grammer
 2.online game: hover  করলে play icon আসবে watch now লিখা থাকবে।
 ৩।@media query mobile and tablet
+
+
+<style>
+    /* Container styles */
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Play button styles */
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 24px;
+      border-radius: 50%;
+      padding: 15px;
+      display: none;
+    }
+
+    /* Text styles */
+    .watch-now {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 18px;
+      display: none;
+    }
+
+    /* Hover effect styles */
+    .image-container:hover .play-button,
+    .image-container:hover .watch-now {
+      display: block;
+    }
+
+    /* Image styles (adjust width and height as needed) */
+    img {
+      width: 200px;
+      height: 150px;
+      /* Add any other image-specific styles here */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="path/to/your-image.jpg" alt="Your Image">
+    <div class="play-button">&#9654️</div>
+    <div class="watch-now">Watch Now</div>
+  </div>
+</body>
+</html>
+
+code link: https://github.com/NazrulIslam-05/Assignment-02.git
+live link: https://nazrulislam-05.github.io/Assignment-02/

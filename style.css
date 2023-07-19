@@ -350,6 +350,8 @@ body{
 
 /* media query */
 
+      /* for mobile device */
+
 @media screen  and (max-width: 576px) {
     body{
         background-color:  rgb(241, 241, 241);
@@ -382,7 +384,8 @@ body{
 
         .banner {
         flex-direction: column;  }
-        .banner-container {
+
+          .banner-container {
             text-align: center;
           }
         
@@ -434,8 +437,111 @@ body{
 
     /* Adjust the game type section */
    
-  
-     
+
+     .game-type {
+
+        gap: 20px;
+        margin-top: 200px;
+        margin-bottom: 80px;
+        grid-template-areas:
+            "  game-type-1  game-type-2  game-type-3"
+            " game-type-4  game-type-5  game-type-6  "
+    
+            "  game-type-7   game-type-8  game-type-9  "
+
+        ;
+    }
+     .footer{
+          display: grid;
+     }
+   
+    .footer-container{
+        display: flex;
+    }
+    .footer ul {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .footer-container ul li {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+  /* for tablet */
+
+  @media screen  and (min-width: 576px) and (max-width: 768px) {
+    body{
+        background-color:  rgb(241, 241, 241);
+        max-height: 4880px;
+    }
+    .main{
+        width: auto;
+        height: auto;
+    }
+    .header{
+        background-color: #fff;
+    }
+    .header-container {
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav ul {
+        
+           display: inline-block;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;      
+        
+        }
+
+        .banner {
+        flex-direction: column;  }
+
+          .banner-container {
+            text-align: center;
+          }
+        
+          .banner img {
+            width: 100%;
+            height: auto;
+          }
+        
+          .title-description {
+            font-size: 14px;
+          }
+    
+
+    /* Adjust the online game section */
+
+    .online-game{
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .online-game-images{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Adjust the 3rd anniversary section */
+    .anniversary {
+        display: block;
+        width: 576px;
+        height: auto;
+        
+        flex-direction: column;
+        align-items: center;
+        margin: 100px auto;
+    }   
+
+    /* Adjust the game type section */
 
      .game-type {
 
@@ -462,10 +568,10 @@ body{
     }
     .footer ul {
         display: flex;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
 
     }
     .footer-container ul li {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:1fr;
     }
 }
